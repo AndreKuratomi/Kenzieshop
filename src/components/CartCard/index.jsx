@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import removeFromCart from "../../store/modules/cartList/actions";
+import { removeFromCart } from "../../store/modules/cartList/actions";
 
 const CartCard = ({ elt }) => {
   const dispatch = useDispatch();
@@ -11,7 +11,7 @@ const CartCard = ({ elt }) => {
       </figure>
       <p>{elt.name}</p>
       <p>R$ {elt.price}</p>
-      <button onClick={() => dispatch(removeFromCart(elt.name))}>
+      <button onClick={() => dispatch(removeFromCart(elt))}>
         Remover do carrinho
       </button>
     </article>

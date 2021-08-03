@@ -7,7 +7,7 @@ import TotalValue from "../TotalValue";
 import { Section } from "../CartList/styles";
 
 const CartList = () => {
-  const cartProducts = useSelector((state) => state.products);
+  const cartProducts = useSelector((state) => state.cart);
   return (
     <section>
       <Section>
