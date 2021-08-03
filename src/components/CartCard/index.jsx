@@ -11,7 +11,7 @@ const CartCard = ({ elt }) => {
       </figure>
       <p>{elt.name}</p>
       <p>R$ {elt.price}</p>
-      <button onClick={() => dispatch(removeFromCart(elt))}>
+      <button onClick={() => dispatch(removeFromCart(elt.name))}>
         Remover do carrinho
       </button>
     </article>

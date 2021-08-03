@@ -3,6 +3,8 @@ import { useHistory } from "react-router-dom";
 import products from "../../products/products.js";
 import ProductCard from "../ProductCard";
 
+import { Section, Button } from "./styles";
+
 const ProductList = () => {
   const history = useHistory();
   const moveToCart = (tool) => {
@@ -10,22 +12,20 @@ const ProductList = () => {
   };
   return (
     <section>
-      <header>
-        <nav>
-          <button onClick={() => moveToCart(history.push("/cart"))}>
-            Ir para o carrinho
-          </button>
-        </nav>
-      </header>
       <h1>KenzieShop!</h1>
-      <div>
+      <Section>
         {products &&
           products.map((elt, index) => (
             <div>
               <ProductCard elt={elt} index={index} />
             </div>
           ))}
-      </div>
+      </Section>
+      <footer>
+        <Button onClick={() => moveToCart(history.push("/cart"))}>
+          Ir para o carrinho
+        </Button>
+      </footer>
     </section>
   );
 };
