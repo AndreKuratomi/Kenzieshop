@@ -4,18 +4,15 @@ import { useSelector } from "react-redux";
 import CartCard from "../CartCard";
 import TotalValue from "../TotalValue";
 
+import { Section } from "../CartList/styles";
+
 const CartList = () => {
   const cartProducts = useSelector((state) => state.products);
   return (
     <section>
-      <header>
-        <nav>
-          <Link to="/">Voltar para a lista de produtos</Link>
-        </nav>
-      </header>
-      <section>
-        <h2>Carrinho de compras</h2>
+      <Section>
         <div>
+          <h1>Carrinho de compras</h1>
           {cartProducts &&
             cartProducts.map((elt, index) => (
               <div>
@@ -26,7 +23,10 @@ const CartList = () => {
         <aside>
           <TotalValue />
         </aside>
-      </section>
+      </Section>
+      <footer>
+        <Link to="/">Voltar para a lista de produtos</Link>
+      </footer>
     </section>
   );
 };
