@@ -2,27 +2,27 @@ const products = [
   {
     name: "Patinho altivo",
     price: 99.99,
-    img: "../assets/patinhoAltivo.png",
+    img: "https://i.imgur.com/UztqwRNb.jpg",
   },
   {
-    name: "Patinho com kenzinhos",
+    name: "Patinho esponja",
     price: 88.4,
-    img: "./assets/patinhoComKenzinhos.png",
+    img: "https://i.imgur.com/FyKYxP2b.jpg",
   },
   {
-    name: "Patinho Happy hour",
+    name: "Patinho Clérigo",
     price: 78.6,
-    img: "./assets/patinhoComKenzinhos.png",
+    img: "https://i.imgur.com/mawgEQ5b.jpg",
   },
   {
-    name: "Patinho feliz",
-    price: 86,
-    img: "./assets/patinhoFeliz.png",
+    name: "Patinho master",
+    price: 86000,
+    img: "https://i.imgur.com/kwuJ5nlb.jpg",
   },
   {
-    name: "patinho felizardo",
-    price: 67,
-    img: "./assets/patinhoFelizardo.png",
+    name: "Patinhos islâmicos",
+    price: 268,
+    img: "https://i.imgur.com/kGtqu7Eb.jpg",
   },
 ];
 
