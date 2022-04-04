@@ -7,15 +7,13 @@
 - [Referências](#referências)
 
 
-Link deploy vercel:
-
-https://3a12-entrega-kenzieshop.vercel.app/
-
-
 # Descrição
 
 <p><b>KenzieShop</b> é uma aplicação que simula em e-commerce simples com estante de produtos e carrinho de compras gerenciando o valor total da compra. Esta aplicação utiliza React e o gerenciador de states Redux.</p>
 <br>
+Link deploy vercel:
+
+https://3a12-entrega-kenzieshop.vercel.app/
 
 # Instalação
 
