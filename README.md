@@ -1,6 +1,4 @@
-Link vercel:
 
-https://3a12-entrega-kenzieshop.vercel.app/
 ## KENZIESHOP
 
 - [Descrição](#descrição)
@@ -8,6 +6,10 @@ https://3a12-entrega-kenzieshop.vercel.app/
 - [Utilização](#utilização)
 - [Termos de uso](#termos-de-uso)
 - [Referências](#referências)
+
+Link deploy vercel:
+
+https://3a12-entrega-kenzieshop.vercel.app/
 
 <br>
 
@@ -70,7 +72,7 @@ yarn start
 
 <p>Ou podemos utilizar o link do deploy Vercel a seguir:</p>
 
-
+https://3a12-entrega-kenzieshop.vercel.app/
 
 
 # Termos de uso
