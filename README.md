@@ -32,13 +32,13 @@ git init
 <h5>1. Fazer o clone do repositório <b>Kenzieshop</b> na sua máquina pelo terminal do computador ou pelo do IDE:</h5>
 
 ```
-git clone git@gitlab.com:ABKURA/3a12-entrega-kenzieshop.git
+git clone https://github.com/AndreKuratomi/Kenzieshop.git
 ```
 
 <p>Entrar na pasta criada:</p>
 
 ```
-cd 3a12-entrega-kenzieshop
+cd Kenzieshop
 ```
 
 <p>Instalar as dependências:</p>
