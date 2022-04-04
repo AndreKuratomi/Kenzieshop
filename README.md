@@ -13,7 +13,7 @@
 <br>
 Link deploy vercel:
 
-https://3a12-entrega-kenzieshop.vercel.app/
+https://kenzieshop-umber.vercel.app/
 
 # Instalação
 
@@ -69,7 +69,7 @@ yarn start
 
 <p>Ou podemos utilizar o link do deploy Vercel a seguir:</p>
 
-https://3a12-entrega-kenzieshop.vercel.app/
+https://kenzieshop-umber.vercel.app/
 
 
 # Termos de uso
