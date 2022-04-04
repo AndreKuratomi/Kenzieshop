@@ -1,7 +1,7 @@
 Link vercel:
 
 https://3a12-entrega-kenzieshop.vercel.app/
-## APLICAÇÃO DE NOTAS
+## KENZIESHOP
 
 - [Descrição](#descrição)
 - [Instalação](#instalação)
@@ -13,7 +13,7 @@ https://3a12-entrega-kenzieshop.vercel.app/
 
 # Descrição
 
-<p><b>Aplicação de notas</b> é uma aplicação simples que se propõe a realizar o CRUD (cadastro, visualização, atualização e deleção) de usuários assim como o de suas anotações e assim gerenciá-las. Esta aplicação utiliza o ambiente de execução Node.js e o framework Express.js</p>
+<p><b>KenzieShop</b> é uma aplicação que simula em e-commerce simples com estante de produtos e carrinho de compras gerenciando o valor total da compra. Esta aplicação utiliza React e o gerenciador de states Redux.</p>
 <br>
 
 # Instalação
@@ -62,13 +62,14 @@ code .
 
 # Utilização
 
-<p>Antes de passarmos para o API Client precisamos rodar o CLI. Ou seja, a aplicação em si.</p>
+<p>Para exibir o frontend para o usuário utlizando o VSCode utilizamos no terminal o seguinte comando:</p>
 
 ```
-yarn aplicacao-de-notas
+yarn start
 ```
 
-<p>A aplicação rodará com o <b>localhost:3000</b>. Adicionar depois deste as rotas e suas terminações, ou <b>endpoints</b>, que veremos a seguir.</p>
+<p>Ou podemos utilizar o link do deploy Vercel a seguir:</p>
+
 
 
 
