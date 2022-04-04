@@ -6,7 +6,7 @@ const TotalValue = () => {
   return (
     <div>
       <h1>Valor total da sua compra:</h1>
-      <p>R$ {reducePrice}</p>
+      <p>$ {reducePrice}</p>
       <button>Finalizar compra!</button>
     </div>
   );
