@@ -6,11 +6,11 @@
 - [Termos de uso](#termos-de-uso)
 - [Referências](#referências)
 
+
 Link deploy vercel:
 
 https://3a12-entrega-kenzieshop.vercel.app/
 
-<br>
 
 # Descrição
 
